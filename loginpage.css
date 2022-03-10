@@ -1,0 +1,105 @@
+@import url('https://fonts.googlelapis.com/css2?family=poppins&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    color:blueviolet;
+}
+h1{
+    font-weight: 600;
+}
+.container{
+    justify-content: center;
+  display: flex;
+  height: 100vh;
+  font-size: 16px;
+  align-items: center;
+  flex-direction: column;
+}
+.box{
+    width: 350px;
+    height: 390px;
+    font-size: 16px;
+    padding: 40px 40px;
+    background: chartreuse;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 50px;
+}
+.user{
+    margin-top: 50px;
+}
+.fas{
+    position: absolute;
+}
+input{
+    border: none;
+    background-color: transparent;
+    color: rgb(12, 185, 243);
+    outline: none;
+    width: 80%;
+    margin-bottom: 25px;
+    padding: 0px 30px 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #f5f5f5;
+    transition: .3s all;
+    
+}
+input:focus{
+    border-bottom: 1px solid #f5f5f5;
+
+}
+.forgot{
+ color: red;
+ text-align: right;
+ margin-top: 0px;
+ font-size: 16px;
+ cursor: pointer;
+}
+.forgot:hover{
+    text-decoration: underline;
+    color: #ff7f50;
+}
+.login{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  flex-direction: column;
+  margin-top: 25px;
+}
+.btn{
+    display: block;
+    width: 70%;
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600px;
+    cursor: pointer;
+    font-size: 20px;
+    opacity: 0.8;
+    transition: .2s all;
+}
+.btn:hover{
+opacity: 1;
+}
+.signup{
+    color: rgb(129, 117, 117);
+}
+.signup span{
+    color: cornflowerblue;
+    cursor: progress;
+    transform: .3s color;
+}
+.signup span:hover{
+    color: darkblue;
+}
+
+
+
+
+
+
+    
+
